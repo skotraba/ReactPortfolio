@@ -8,7 +8,7 @@ import "./MyNavbar.css";
 const MyNavbar = () => {
     return (
         <>
-        <Navbar  variant="dark" sticky="top" className="animate-navbar nav-theme justify-content-between">
+        <Navbar  variant="dark" fixed="top" className="animate-navbar nav-theme justify-content-between">
           <Navbar.Brand href="#home"></Navbar.Brand>
             <img className="logo" src={catLogo} alt="dunno"></img>
           <Nav className="ml-auto">
