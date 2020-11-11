@@ -12,7 +12,8 @@ import  MyCarousal from "./components/MyCarousal/MyCarousal";
 import MyTitleMessage from "./components/MyTitleMessage/MyTitleMessage";
 
 //Pages
-import About from "./pages/about/About"
+import About from "./pages/about/About";
+import Skills from "./pages/skills/Skills";
 
 
 const App = () => {
@@ -36,6 +37,14 @@ const App = () => {
             </Container>
           </div>
         </Parallax>
+        
+        <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <Skills/>
+              </Fade>
+            </Container>
+          </div>
       </div>
       <hr />
     </div>
