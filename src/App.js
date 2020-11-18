@@ -1,9 +1,7 @@
 import React from "react";
 import "./myApp.css";
-import Fade from 'react-reveal/Fade';
 import {Parallax} from "react-parallax";
 import Container from 'react-bootstrap/Container';
-
 import Picture from "./assets/bg.webp";
 
 //Components
@@ -14,6 +12,8 @@ import MyTitleMessage from "./components/MyTitleMessage/MyTitleMessage";
 //Pages
 import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
+import Experiences from "./pages/experiences/Experiences";
+import Projects from "./pages/projects/Projects";
 
 
 const App = () => {
@@ -31,22 +31,33 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
                 <About />
-              </Fade>
             </Container>
           </div>
         </Parallax>
         
         <div>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
-                <Skills/>
-              </Fade>
-            </Container>
-          </div>
+          <Container className="container-box rounded">
+              <Skills/>
+          </Container>
+        </div>
       </div>
-      <hr />
+      <br/><br/>
+      <div>
+        <Container className="container-box rounded">
+          <Experiences/>
+        </Container>
+      </div>
+      <Parallax
+          blur={{ min: -30, max: 30 }}
+          bgImage={Picture}
+          bgImageAlt=""
+          strength={-500}
+        >
+          <div>
+            <Projects />
+          </div>
+        </Parallax>
     </div>
   );
 };

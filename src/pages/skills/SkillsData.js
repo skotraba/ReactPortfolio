@@ -15,6 +15,8 @@ import NODEJS from "../../assets/skills/skills_icons/nodejs.svg"
 //LANGUAGES
 import JAVASCRIPT from "../../assets/skills/skills_icons/javascript.svg";
 import PYTHON from "../../assets/skills/skills_icons/python.svg";
+import CPP from "../../assets/skills/skills_icons/cpp.png";
+import CSHARP from "../../assets/skills/skills_icons/csharp.svg";
 
 export const skills = {
   frontend: [
@@ -46,7 +48,11 @@ export const skills = {
     { skillname: 'Javascript',
     imgSrc: JAVASCRIPT},
     { skillname: 'Python',
-    imgSrc: PYTHON }
+    imgSrc: PYTHON },
+    { skillname: 'C++',
+    imgSrc: CPP},
+    { skillname: 'C#',
+    imgSrc: CSHARP}
 
   ]
 }

@@ -14,7 +14,7 @@ import {skills} from "./SkillsData";
 const Skills = () => {
   return (
     <div id="skills">
-      <h1 className="text-center pb-4 font-details-b">Tech Skills</h1>
+      <h1 className="text-center p-4 font-details-b">Tech Skills</h1>
       <CardDeck>
           {/* Frontend */}
             <Card className="focus mt-2 mb-2">
@@ -37,7 +37,7 @@ const Skills = () => {
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend and Database</Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <Card.Text className="card-text ">
                   {skills.backend.map((skill, index) => (
                     <span className="p-2" key={`${skill.skillname}${index}`}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
@@ -49,12 +49,12 @@ const Skills = () => {
               </Card.Body>
             </Card>
 
-            {/* Somethingelse */}
+            {/* Languages */}
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <Card.Text className="card-text">
                   {skills.languages.map((skill, index) => (
                     <span className="p-2" key={`${skill.skillname}${index}`}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
