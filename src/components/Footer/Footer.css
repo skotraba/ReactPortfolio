@@ -1,0 +1,12 @@
+.footer{
+  background-color: rgb(37, 39, 39);
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.contact{
+  background-color: rgb(37, 39, 39);
+  color: white;
+  padding: 2em;
+}

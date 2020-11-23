@@ -1,15 +1,16 @@
 hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0rgba(255, 255, 255, 0) 0, 0));
-  }
-  
-  .container-box {
-    width: 90%;
-    background-color: transparent;
-    position: relative;
-    z-index: 9;
-  }
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(247, 243, 243, 0), rgba(245, 239, 239, 0.75), rgba(0, 0, 0, 0));
+  margin: 1em;
+}
+
+.container-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
 /*   
   .particles-box {
     position: absolute;

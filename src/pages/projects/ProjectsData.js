@@ -4,6 +4,7 @@ import ITGame from "../../assets/images/projectImages/ITGame.webp";
 import GuessColor from "../../assets/images/projectImages/GuessColor2.png";
 import WebCoffee from "../../assets/images/projectImages/WebCoffee.png";
 import SpanishLearn from "../../assets/images/projectImages/WebSpanish.png";
+import Portfolio from "../../assets/images/projectImages/PortfolioSS.png";
 
 export const ProjectsData = [
 {
@@ -35,6 +36,11 @@ export const ProjectsData = [
     imageSrc: SpanishLearn,
     name: "Practice Spanish Learning Resource Site",
     description: "In my free time I really enjoy learning Spanish, so I decided to create a simple webiste that has learning resources available.  I created a simple javascript game that shows flashcards of questions and flips to reveal the answers.  The site also has links to resources used to create the site.  Javascript game does not currently work on mobile."
+  },
+  {
+    imageSrc: Portfolio,
+    name: "Old Portfolio",
+    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
   }
   
   ]

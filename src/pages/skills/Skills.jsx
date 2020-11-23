@@ -13,7 +13,7 @@ import {skills} from "./SkillsData";
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <div id="skills"  className="skills">
       <h1 className="text-center p-4 font-details-b">Tech Skills</h1>
       <CardDeck>
           {/* Frontend */}

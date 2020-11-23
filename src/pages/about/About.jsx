@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from "react-bootstrap/Button";
 import Profile from '../../assets/working.png';
+import Resume from '../../assets/images/Resume.pdf';
 
 import "./about.css";
 
@@ -24,8 +25,7 @@ const About = (props) => {
               <br></br>
               <br></br>
               <br></br>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam obcaecati vel voluptates, nihil nobis aut et animi repellat, unde in deserunt ullam eaque fugit iusto dolorem quis porro placeat.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nisi obcaecati maiores voluptate quaerat velit enim et voluptatem, fuga assumenda, vitae labore, veniam omnis inventore ullam! Veritatis unde tempore voluptas.</p>
+              <p>I am a former Army Medic who decided to pursue a life of research. I studied to become an analytical chemist but discovered programming along the way and have been driven to turn it into a career ever since. I completed my degree in Chemistry and returned to school for programming and development as well as some programming certificates.  I transitioned into IT work shortly after moving to Raleigh and will continue to transition to Software Development. Experienced with Object-Oriented Programming, Front-End Development, scripting and IT fundamentals.  I am particulary passionate about responsive and dynamic solutions for web applications. I am a motivated, fast learner with strong troubleshooting and problem-solving skills and an analytical mindset.</p>
             </Row>
             <Col className="d-flex justify-content-center flex-wrap my-details">
               <div>
@@ -36,21 +36,21 @@ const About = (props) => {
                 </a>
               </div>
               <div>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
                   <Button className="m-2" variant="outline-dark">
                     My Resume
                   </Button>
                 </a>
               </div>
               <div>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/skotraba" target="_blank" rel="noopener noreferrer">
                   <Button className="m-2" variant="outline-success">
                     GitHub
                   </Button>
                 </a>
               </div>
               <div>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/shannon-kotraba/" target="_blank" rel="noopener noreferrer">
                   <Button className="m-2" variant="outline-info">
                     LinkedIn
                   </Button>

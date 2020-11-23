@@ -1,4 +1,8 @@
-  
+ .skills{
+   margin: 2em;
+ }
+ 
+
 .focus {
   transition: transform 0.3s;
 }
