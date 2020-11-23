@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.7d1f9d44.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.e6eb985c.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.e6eb985c.chunk.js.map",
-    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.3dfdd2f1.js",
-    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.3dfdd2f1.js.map",
-    "static/js/2.c1f929f6.chunk.js": "/ReactPortfolio/static/js/2.c1f929f6.chunk.js",
-    "static/js/2.c1f929f6.chunk.js.map": "/ReactPortfolio/static/js/2.c1f929f6.chunk.js.map",
-    "static/js/3.1c25f3d7.chunk.js": "/ReactPortfolio/static/js/3.1c25f3d7.chunk.js",
-    "static/js/3.1c25f3d7.chunk.js.map": "/ReactPortfolio/static/js/3.1c25f3d7.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.1e18431d.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.8fb39c2c.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.8fb39c2c.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.631dae03.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.631dae03.js.map",
+    "static/js/2.88db5905.chunk.js": "/ReactPortfolio/static/js/2.88db5905.chunk.js",
+    "static/js/2.88db5905.chunk.js.map": "/ReactPortfolio/static/js/2.88db5905.chunk.js.map",
+    "static/js/3.3e52fb5b.chunk.js": "/ReactPortfolio/static/js/3.3e52fb5b.chunk.js",
+    "static/js/3.3e52fb5b.chunk.js.map": "/ReactPortfolio/static/js/3.3e52fb5b.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.7d1f9d44.chunk.css.map": "/ReactPortfolio/static/css/main.7d1f9d44.chunk.css.map",
-    "static/js/2.c1f929f6.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.c1f929f6.chunk.js.LICENSE.txt",
+    "static/css/main.1e18431d.chunk.css.map": "/ReactPortfolio/static/css/main.1e18431d.chunk.css.map",
+    "static/js/2.88db5905.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.88db5905.chunk.js.LICENSE.txt",
     "static/media/GuessColor2.b454d97d.png": "/ReactPortfolio/static/media/GuessColor2.b454d97d.png",
     "static/media/ITGame.c88a00cc.webp": "/ReactPortfolio/static/media/ITGame.c88a00cc.webp",
+    "static/media/PortfolioSS.06d8a85c.png": "/ReactPortfolio/static/media/PortfolioSS.06d8a85c.png",
     "static/media/Recipe.6bfb8f0e.png": "/ReactPortfolio/static/media/Recipe.6bfb8f0e.png",
+    "static/media/Resume.0b9dd7c9.pdf": "/ReactPortfolio/static/media/Resume.0b9dd7c9.pdf",
     "static/media/WebCoffee.b467521b.png": "/ReactPortfolio/static/media/WebCoffee.b467521b.png",
     "static/media/WebSpanish.f8cdd888.png": "/ReactPortfolio/static/media/WebSpanish.f8cdd888.png",
-    "static/media/bg.48c0b661.webp": "/ReactPortfolio/static/media/bg.48c0b661.webp",
+    "static/media/bg.e66eaf91.jpg": "/ReactPortfolio/static/media/bg.e66eaf91.jpg",
     "static/media/bootstrap-4.997c463d.svg": "/ReactPortfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/colorPicker2.55c8d29b.png": "/ReactPortfolio/static/media/colorPicker2.55c8d29b.png",
     "static/media/csharp.304507ec.svg": "/ReactPortfolio/static/media/csharp.304507ec.svg",
@@ -38,9 +40,9 @@
     "static/media/working.6252ca99.png": "/ReactPortfolio/static/media/working.6252ca99.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3dfdd2f1.js",
-    "static/js/2.c1f929f6.chunk.js",
-    "static/css/main.7d1f9d44.chunk.css",
-    "static/js/main.e6eb985c.chunk.js"
+    "static/js/runtime-main.631dae03.js",
+    "static/js/2.88db5905.chunk.js",
+    "static/css/main.1e18431d.chunk.css",
+    "static/js/main.8fb39c2c.chunk.js"
   ]
 }
