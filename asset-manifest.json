@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.7f9425a3.chunk.css",
+    "main.css": "/ReactPortfolio/static/css/main.413ba4f7.chunk.css",
     "main.js": "/ReactPortfolio/static/js/main.59ca71ca.chunk.js",
     "main.js.map": "/ReactPortfolio/static/js/main.59ca71ca.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.23f59511.js",
@@ -10,7 +10,7 @@
     "static/js/3.017c1e75.chunk.js": "/ReactPortfolio/static/js/3.017c1e75.chunk.js",
     "static/js/3.017c1e75.chunk.js.map": "/ReactPortfolio/static/js/3.017c1e75.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.7f9425a3.chunk.css.map": "/ReactPortfolio/static/css/main.7f9425a3.chunk.css.map",
+    "static/css/main.413ba4f7.chunk.css.map": "/ReactPortfolio/static/css/main.413ba4f7.chunk.css.map",
     "static/js/2.69cd6d27.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.69cd6d27.chunk.js.LICENSE.txt",
     "static/media/GuessColor2.b454d97d.png": "/ReactPortfolio/static/media/GuessColor2.b454d97d.png",
     "static/media/ITGame.c88a00cc.webp": "/ReactPortfolio/static/media/ITGame.c88a00cc.webp",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.23f59511.js",
     "static/js/2.69cd6d27.chunk.js",
-    "static/css/main.7f9425a3.chunk.css",
+    "static/css/main.413ba4f7.chunk.css",
     "static/js/main.59ca71ca.chunk.js"
   ]
 }
