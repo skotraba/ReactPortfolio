@@ -6,10 +6,8 @@ import Slide1 from "../../assets/Carousal/keyboard.jpg";
 import Slide2 from "../../assets/Carousal/code.jpg";
 import Slide3 from "../../assets/Carousal/code2.jpg";
 
-//Components
-import ScrollDown from "../ScrollDown/ScrollDown"
 
-import "./MyCarousal.css"
+import "./MyCarousal.css";
 
 const MyCarousal = () => {
   return (
@@ -37,7 +35,6 @@ const MyCarousal = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <ScrollDown />
     </div>
   );
 }
