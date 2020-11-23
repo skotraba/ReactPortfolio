@@ -5,7 +5,7 @@ import {Slide} from 'react-awesome-reveal';
 import Experience from "../../components/experience/Experience"
 
 
-let jobs = [
+const jobs = [
   {
     name: 'IT',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam consectetur illum ullam id odio numquam. Assumenda asperiores, iste veniam necessitatibus deleniti culpa quae facilis. Perspiciatis perferendis sit dolorum architecto officiis.',
