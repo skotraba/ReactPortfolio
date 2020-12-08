@@ -8,10 +8,11 @@
 }
 
 .profile {
-    max-width: 18em;
+    max-width: 20em;
     background-color: transparent;
     border: none;
     margin-right: 10em;
+    margin-top: 5em;
 }
 
 .my-details{
