@@ -17,7 +17,7 @@ const About = (props) => {
       <Container>
         <Row>  {/* Picture Col */}
           <Col xs={12} md={6}> 
-            <Image className="profile justify-content-end fluid" src={Profile} thumbnail />
+            <Image className="profile fluid" src={Profile} thumbnail />
           </Col>
           <Col xs={12} md={{span:4, offset:2}}>
             <Row>

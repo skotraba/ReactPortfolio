@@ -28,5 +28,20 @@
     margin: 0;
 }
 
+@media only screen and (max-width: 600px){
+    .aboutH{
+        visibility: hidden;
+    }
+
+    .profile{
+        margin: 0;
+        max-width: 100%;
+    }
+
+   .about{
+       padding: 1em;
+   }
+}
+
 
 
