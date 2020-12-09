@@ -46,9 +46,9 @@ const App = () => {
       </div>
       <br/><br/>
       <div>
-        <Container className="container-box rounded">
+        
           <Experiences/>
-        </Container>
+        
       </div>
       <Parallax
           blur={{ min: -30, max: 30 }}
