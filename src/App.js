@@ -46,9 +46,7 @@ const App = () => {
       </div>
       <br/><br/>
       <div>
-        
           <Experiences/>
-        
       </div>
       <Parallax
           blur={{ min: -30, max: 30 }}

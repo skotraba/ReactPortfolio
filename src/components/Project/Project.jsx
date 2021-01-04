@@ -10,7 +10,11 @@ const Project = (props) => {
       <div className="img_description text-center">
         <h4>{props.name}</h4>
         <p>{props.description}</p>
-        <Button>View Code</Button>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <Button className="m-2" variant="primary">
+                View Code
+            </Button>
+        </a>
       </div>
     </div>
   );

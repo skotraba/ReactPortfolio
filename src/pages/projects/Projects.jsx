@@ -15,7 +15,7 @@ const Projects = () => {
       </div >
       <div id="projects" className="projectsSec mb-5">
         {ProjectsData.map((project, index) => (
-          <Project name={project.name} imgSrc={project.imageSrc} description={project.description}></Project>
+          <Project name={project.name} imgSrc={project.imageSrc} description={project.description} link={project.link}></Project>
         ))}
       </div>
       

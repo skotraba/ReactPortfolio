@@ -28,17 +28,29 @@ const jobs = [
   
 ]
 
+let isMobile;
+if(window.screen.width < 600){
+  isMobile = true;
+} else {
+  isMobile = false;
+}
 
 
 const Experiences = (props) => {
   return (
     <div id="experience" className="Experiences">
         <h1 className="font-details-b text-center">Related Experience</h1>
-        {jobs.map((job, index) => (
-          <Slide delay={job.delay}>
+        {(isMobile) ? 
+        jobs.map((job, index) => (
+          <div delay={job.delay}>
             <Experience jobName={job.name} description={job.description} key={index}/>
-          </Slide>
-        ))}
+          </div> )) :
+          jobs.map((job, index) => (
+            <Slide delay={job.delay}>
+              <Experience jobName={job.name} description={job.description} key={index}/>
+            </Slide> ))
+        }
+        {console.log(isMobile)}
         
     </div>
   );
