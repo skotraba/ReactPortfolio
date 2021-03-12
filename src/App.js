@@ -1,5 +1,5 @@
 import React from "react";
-import "./myApp.css";
+import "./myApp.scss";
 import {Parallax} from "react-parallax";
 import Container from 'react-bootstrap/Container';
 import Picture from "./assets/bg.jpg";
@@ -15,6 +15,8 @@ import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
 import Experiences from "./pages/experiences/Experiences";
 import Projects from "./pages/projects/Projects";
+
+//CSS
 
 
 const App = () => {

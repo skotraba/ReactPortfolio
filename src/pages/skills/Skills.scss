@@ -1,0 +1,55 @@
+ .skills{
+   margin: auto;
+
+    .focus {
+      transition: transform 0.3s;
+    }
+    
+    .focus:hover {
+      transform: scale(1.05);
+    }
+    
+    .card-title {
+      font-size: 2em;
+      font-weight: 700;
+    }
+    
+    .image-style {
+      width: 3em;
+    }
+    
+    .font-details {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 3em;
+      font-weight: 500;
+      color: #4A5240;
+    }
+    
+    .font-details-b {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 3em;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+ }
+ 
+
+
+
+@media only screen and (max-width: 600px){
+  
+  .skills{
+    margin:auto;
+  }
+
+  .font details .font-details-b{
+    font-size: 2.5em;
+    margin-top: 1em;
+  }
+  
+  .focus:hover {
+    transform: none;
+  }
+
+}

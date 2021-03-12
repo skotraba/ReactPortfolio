@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   return (

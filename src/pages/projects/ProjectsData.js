@@ -31,7 +31,7 @@ export const ProjectsData = [
     imageSrc: GuessColor,
     link: "https://github.com/skotraba/GuessColor",
     name: "Color Guesser",
-    description: "A window that shows a color wheel and allows the user to select a color.  Based on the user selection, two other colors are generated to show a triadic color scheme.  A useful program for artist and designers.  The values were calculated using properties of an equilateral triangle.  Written in C++ using the SFML library for graphics."
+    description: "A simple color guessing game that shows RGB values and let's you guess the color."
   },
   {
     imageSrc: WebCoffee,

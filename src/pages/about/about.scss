@@ -1,0 +1,57 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+    margin: 0;
+    position: relative; 
+    padding: 1em;
+
+    .profile {
+        max-width: 100%;
+        
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        
+    }
+    
+    .my-details{
+        margin: auto;
+    }
+    
+    .aboutH{
+        opacity: .1;
+        position: absolute;
+        font-size: 10em;
+        top: 10%;
+        left: 25%;
+        margin: 0;
+        visibility: hidden;
+    }
+    
+}
+
+
+
+
+/* Testing Mobile first aproach */
+@media only screen and (min-width: 600px){
+     
+
+   .about{
+       padding:  10em 0;
+
+
+       .aboutH{
+        visibility: visible ;
+    }
+
+    .profile{
+        margin-right: 10em;
+        margin-top: 5em;
+        
+    }
+   } 
+}
+
+
+

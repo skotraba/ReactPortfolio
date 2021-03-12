@@ -4,7 +4,7 @@ import React from 'react';
 import Project from "../../components/Project/Project";
 import {ProjectsData} from "./ProjectsData";
 
-import "./Projects.css"
+import "./Projects.scss"
 
 
 const Projects = () => {

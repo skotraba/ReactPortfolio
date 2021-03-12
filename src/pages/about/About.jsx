@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from "react-bootstrap/Button";
 import Profile from '../../assets/working.png';
-import Resume from '../../assets/images/Resume.pdf';
+import Resume from '../../assets/images/Resume2.pdf';
 
-import "./about.css";
+import "./about.scss";
 
 const About = (props) => {
   return (

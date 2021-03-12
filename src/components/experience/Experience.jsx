@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 //CSS
-import "./Experience.css"
+import "./Experience.scss"
 
 const Experience = (props) => {
   return (

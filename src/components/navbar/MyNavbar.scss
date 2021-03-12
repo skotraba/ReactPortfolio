@@ -15,12 +15,14 @@
 
 .navLink{
     color: white !important;
+
+    &:hover {
+        color: thistle !important;
+    }
     
 }
 
-.navLink:hover {
-    color: thistle !important;
-}
+
 
 @keyframes moveDown {
     from {

@@ -4,7 +4,7 @@ import React from 'react';
 import {Slide} from 'react-awesome-reveal';
 import Experience from "../../components/experience/Experience"
 
-import "./Experiences.css";
+import "./Experiences.scss";
 
 const jobs = [
   {

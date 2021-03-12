@@ -7,7 +7,7 @@ import Slide2 from "../../assets/Carousal/code.jpg";
 import Slide3 from "../../assets/Carousal/code2.jpg";
 
 
-import "./MyCarousal.css";
+import "./MyCarousal.scss";
 
 const MyCarousal = () => {
   return (
