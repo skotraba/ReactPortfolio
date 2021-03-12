@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.29c4545f.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.25635c3c.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.25635c3c.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.0aa99680.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.09ab865a.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.09ab865a.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.23f59511.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.23f59511.js.map",
     "static/js/2.b22ee7b3.chunk.js": "/ReactPortfolio/static/js/2.b22ee7b3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.017c1e75.chunk.js": "/ReactPortfolio/static/js/3.017c1e75.chunk.js",
     "static/js/3.017c1e75.chunk.js.map": "/ReactPortfolio/static/js/3.017c1e75.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.29c4545f.chunk.css.map": "/ReactPortfolio/static/css/main.29c4545f.chunk.css.map",
+    "static/css/main.0aa99680.chunk.css.map": "/ReactPortfolio/static/css/main.0aa99680.chunk.css.map",
     "static/js/2.b22ee7b3.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.b22ee7b3.chunk.js.LICENSE.txt",
     "static/media/GREVocab.8d15f9d8.png": "/ReactPortfolio/static/media/GREVocab.8d15f9d8.png",
     "static/media/GuessColor2.2e3a8137.png": "/ReactPortfolio/static/media/GuessColor2.2e3a8137.png",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.23f59511.js",
     "static/js/2.b22ee7b3.chunk.js",
-    "static/css/main.29c4545f.chunk.css",
-    "static/js/main.25635c3c.chunk.js"
+    "static/css/main.0aa99680.chunk.css",
+    "static/js/main.09ab865a.chunk.js"
   ]
 }
