@@ -19,6 +19,7 @@ const MyNavbar = () => {
                 <Nav.Link className="navLink" href="#about">About</Nav.Link>
                 <Nav.Link className="navLink" href="#skills">Skills</Nav.Link>
                 <Nav.Link className="navLink" href="#experience">Experience</Nav.Link>
+                <Nav.Link className="navLink" href="#projects">Projects</Nav.Link>
                 <Nav.Link className="navLink" href="#contact">Contact</Nav.Link>
               </Nav>
           </Navbar.Collapse>

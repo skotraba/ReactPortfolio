@@ -6,10 +6,26 @@ import WebCoffee from "../../assets/images/projectImages/WebCoffee.png";
 import SpanishLearn from "../../assets/images/projectImages/WebSpanish.png";
 import Portfolio from "../../assets/images/projectImages/PortfolioSS.png";
 import GREVocab from "../../assets/images/projectImages/GREVocab.png";
+import Burger from '../../assets/images/projectImages/Burger.png'
 //TODO RESIZE ALL IMAGES 800 px by 600 px?
 
+//Gifs
+import TrelloGif from '../../assets/gifs/trelloClone.gif';
+
 export const ProjectsData = [
-{
+  {
+    imageSrc: TrelloGif,
+    link: "https://github.com/skotraba/TrelloClone",
+    name: "Trello Clone",
+    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  Written using REM methodology and a mobile first design."
+  },
+  {
+    imageSrc: Burger,
+    link: "https://github.com/skotraba/Burger-Builder",
+    name: "Burger Builder",
+    description: "This was a project that I created from a Udemy Course called \"React - The Complete Guide.\" This project allows a user to order a customized burger that taught me a lot about state management.     "
+  },
+  {
     imageSrc: RecipeImage,
     link: "https://github.com/skotraba/RecipeCalculatorGUI",
     name: "Recipe Calculator",
