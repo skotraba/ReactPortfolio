@@ -17,13 +17,19 @@ export const ProjectsData = [
     imageSrc: TrelloGif,
     link: "https://github.com/skotraba/TrelloClone",
     name: "Trello Clone",
-    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  Written using REM methodology and a mobile first design."
+    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
   },
   {
     imageSrc: Burger,
     link: "https://github.com/skotraba/Burger-Builder",
     name: "Burger Builder",
     description: "This was a project that I created from a Udemy Course called \"React - The Complete Guide.\" This project allows a user to order a customized burger that taught me a lot about state management.     "
+  },
+  {
+    imageSrc: GREVocab,
+    link: "https://github.com/skotraba/GRE-Study",
+    name: "GRE Vocab Study",
+    description: "This is a web application built using Electron to help study GRE vocabulary."
   },
   {
     imageSrc: RecipeImage,
@@ -67,12 +73,7 @@ export const ProjectsData = [
     name: "Old Portfolio",
     description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
   },
-  {
-    imageSrc: GREVocab,
-    link: "https://github.com/skotraba/GRE-Study",
-    name: "GRE Vocab Study",
-    description: "This is a web application built using Electron to help study GRE vocabulary."
-  },
+  
   
   ]
 
