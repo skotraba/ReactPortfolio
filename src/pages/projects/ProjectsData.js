@@ -10,7 +10,7 @@ import Burger from '../../assets/images/projectImages/Burger.png'
 //TODO RESIZE ALL IMAGES 800 px by 600 px?
 
 //Gifs
-import TrelloGif from '../../assets/gifs/trelloClone.gif';
+import TrelloGif from '../../assets/gifs/updatedTrello.gif';
 
 export const ProjectsData = [
   {

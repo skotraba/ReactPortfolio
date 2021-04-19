@@ -1,8 +1,6 @@
 /* relevant styles */
 .img_wrap {
   position: relative;
-  /* height: 40vh;
-  width: 20vw; */
   height: 100%;
   width: 30%;
   margin: 1em;
@@ -11,7 +9,7 @@
   box-shadow: 13px 9px 35px -7px rgba(0,0,0,0.64); 
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
-  border-radius: 30px;
+  // border-radius: 30px;
 }
 
 .img_description {
@@ -49,10 +47,12 @@
 
   .img{
     /* max-height: 50%;*/
+    padding: 1rem;
     width: 100%; 
+    height: 40vh;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
-    border-radius: 30px;
+    // border-radius: 30px;
   }
 }
 
