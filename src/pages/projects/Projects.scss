@@ -57,6 +57,12 @@
 }
 
 
+.Carousel {
+  height: auto;
+  margin: 5rem 10rem;
+  padding: 1rem;
+}
+
 
 
 @media only screen and (max-width: 1080px) {
@@ -67,6 +73,11 @@
 
   .img_description{
     font-size: .8em;
+  }
+
+  .Carousel {
+    width: 100%;
+    margin: 0;
   }
 }
 
@@ -81,4 +92,9 @@
     overflow: scroll;
   }
 }
+
+
+
+
+
 

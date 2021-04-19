@@ -56,6 +56,12 @@ export const ProjectsData = [
     description: "A simple color guessing game that shows RGB values and let's you guess the color."
   },
   {
+    imageSrc: Portfolio,
+    link: "https://github.com/skotraba/skotraba.github.io",
+    name: "Old Portfolio",
+    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
+  },
+  {
     imageSrc: WebCoffee,
     link: "https://github.com/skotraba/CoffeeSite",
     name: "Practice Coffee Store Website",
@@ -67,12 +73,7 @@ export const ProjectsData = [
     name: "Practice Spanish Learning Resource Site",
     description: "In my free time I really enjoy learning Spanish, so I decided to create a simple webiste that has learning resources available.  I created a simple javascript game that shows flashcards of questions and flips to reveal the answers.  The site also has links to resources used to create the site.  Javascript game does not currently work on mobile."
   },
-  {
-    imageSrc: Portfolio,
-    link: "https://github.com/skotraba/skotraba.github.io",
-    name: "Old Portfolio",
-    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
-  },
+  
   
   
   ]
