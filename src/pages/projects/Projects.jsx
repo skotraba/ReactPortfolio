@@ -11,11 +11,11 @@ import "./Projects.scss"
 
 const Projects = () => {
   return (
-    <div className="Carousel">
+    <div className="Projects">
       <h1 className="font-details-b text-center">Projects</h1>
       <CardDeck >
         {ProjectsData.map(project => (
-          <Card style={{ minWidth: '18rem' }}>
+          <Card className="" style={{ minWidth: '18rem' }}>
           <Card.Img 
           variant="top" 
           src={project.imageSrc}
@@ -25,8 +25,9 @@ const Projects = () => {
             <Card.Text>
               {project.description}
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            
           </Card.Body>
+          <Button className="Projects__btn" href={project.link} variant="primary">View Code</Button>
         </Card>
         ))}
       </CardDeck>

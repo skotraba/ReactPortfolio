@@ -10,7 +10,7 @@ import Burger from '../../assets/images/projectImages/Burger.png'
 //TODO RESIZE ALL IMAGES 800 px by 600 px?
 
 //Gifs
-import TrelloGif from '../../assets/gifs/updatedTrello.gif';
+import TrelloGif from '../../assets/gifs/testTrello.gif';
 
 export const ProjectsData = [
   {
@@ -29,7 +29,7 @@ export const ProjectsData = [
     imageSrc: GREVocab,
     link: "https://github.com/skotraba/GRE-Study",
     name: "GRE Vocab Study",
-    description: "This is a web application built using Electron to help study GRE vocabulary."
+    description: "This is a web application built using Electron to help study GRE vocabulary. The application cycles through words and allows the user to hide or show the definition."
   },
   {
     imageSrc: RecipeImage,
