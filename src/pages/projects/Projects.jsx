@@ -15,7 +15,7 @@ const Projects = () => {
       <h1 className="font-details-b text-center">Projects</h1>
       <CardDeck >
         {ProjectsData.map(project => (
-          <Card className="" style={{ minWidth: '18rem' }}>
+          <Card className="Projects__card" style={{ minWidth: '18rem' }}>
           <Card.Img 
           variant="top" 
           src={project.imageSrc}
