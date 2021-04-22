@@ -12,8 +12,9 @@ import "./Projects.scss"
 const Projects = () => {
   return (
     <div className="Projects">
+      <Project/>
       <h1 className="font-details-b text-center">Projects</h1>
-      <CardDeck >
+      <CardDeck className="Projects__box">
         {ProjectsData.map(project => (
           <Card className="Projects__card" style={{ minWidth: '18rem' }}>
           <Card.Img 
@@ -34,24 +35,7 @@ const Projects = () => {
     <div className="clear"></div>
     </div>
     
-    
 
-
-
-
-
-
-    // <div>
-    //   <div>
-    //     <h2 className="mt-5 text-center font-details">Projects</h2>
-    //   </div >
-    //   <div id="projects" className="projectsSec mb-5">
-    //     {ProjectsData.map((project, index) => (
-    //       <Project name={project.name} imgSrc={project.imageSrc} description={project.description} link={project.link}></Project>
-    //     ))}
-    //   </div>
-      
-    // </div>  
   );
 }
 

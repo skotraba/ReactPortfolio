@@ -6,7 +6,8 @@ import WebCoffee from "../../assets/images/projectImages/WebCoffee.png";
 import SpanishLearn from "../../assets/images/projectImages/WebSpanish.png";
 import Portfolio from "../../assets/images/projectImages/PortfolioSS.png";
 import GREVocab from "../../assets/images/projectImages/GREVocab.png";
-import Burger from '../../assets/images/projectImages/Burger.png'
+import Burger from '../../assets/images/projectImages/Burger.png';
+import CSSProject from '../../assets/images/projectImages/CSSCourse.png';
 //TODO RESIZE ALL IMAGES 800 px by 600 px?
 
 //Gifs
@@ -38,6 +39,12 @@ export const ProjectsData = [
     description: "A program that allows the user to input ingredient info. The user can add ingredients listing calories and weight.  After adding recipes the user can view the recipe or calculate total calories and calories based on serving size. Orignally written in Python, rewritten with GUI implementation in C# "
   },
   {
+    imageSrc: Portfolio,
+    link: "https://github.com/skotraba/skotraba.github.io",
+    name: "Old Portfolio",
+    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
+  },
+  {
     imageSrc: ColorPicker,
     link: "https://github.com/skotraba/Color-Picker",
     name: "Color Picker",
@@ -56,10 +63,10 @@ export const ProjectsData = [
     description: "A simple color guessing game that shows RGB values and let's you guess the color."
   },
   {
-    imageSrc: Portfolio,
-    link: "https://github.com/skotraba/skotraba.github.io",
-    name: "Old Portfolio",
-    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
+    imageSrc: CSSProject,
+    link: "https://github.com/skotraba/CoffeeSite",
+    name: "Trillo - A CSS Focused Project",
+    description: "This was a project created following an advanced CSS and Sass course on Udemy(course referenced in ReadMe file).  This project was focused on using Sass and styling web components in a responsive and organized way.  This project taught me a lot about best practices when working with CSS and Sass and applies the BEM methodology."
   },
   {
     imageSrc: WebCoffee,
