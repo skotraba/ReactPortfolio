@@ -2,6 +2,8 @@ import React from 'react';
 import styled from "styled-components";
 import Typewriter from 'typewriter-effect';
 
+import "./TitleMessage.scss";
+
 const TitleMessage = styled.h1`
  position: absolute;
  width: 100%;
@@ -35,7 +37,7 @@ const MyTitleMessage = () => {
           Hi, I am
           <br />
           <span>
-          <strong>Shannon Kotraba</strong>
+          <strong className="heading__name">Shannon Kotraba</strong>
           </span>
         </div>
         <div className="sub">
