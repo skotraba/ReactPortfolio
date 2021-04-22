@@ -5,6 +5,11 @@
   background-color: #fff;
   margin: 20px;
   padding: 1em;
+  color: rgb(78, 77, 77);
+
+  &__heading {
+    font-weight: 600;
+  }
 
   .border {
     width: 100%;

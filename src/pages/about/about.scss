@@ -1,9 +1,14 @@
 .about {
     background-color: transparent;
-    font-size: 1.1em;
+    font-size: 1.3rem;
     margin: 0;
     position: relative; 
     padding: 1em;
+
+    &__heading {
+        padding-bottom: 3rem;
+        font-size: 4rem;
+    }
 
     .profile {
         max-width: 100%;
@@ -15,7 +20,7 @@
     }
     
     .my-details{
-        margin: auto;
+        margin: none;
     }
     
     .aboutH{

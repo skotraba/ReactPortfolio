@@ -8,7 +8,7 @@ const Experience = (props) => {
   return (
     <Container >
       <div className="myDiv">
-      <h2>{props.jobName}</h2>
+      <h2 className="myDiv__heading">{props.jobName}</h2>
       <p>{props.description}</p>
         <div className="border"></div>
       </div>

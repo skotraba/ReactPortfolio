@@ -1,5 +1,6 @@
  .skills{
-   margin: auto;
+    margin-bottom: 5rem;
+    font-size: 1.1rem;
 
     .focus {
       transition: transform 0.3s;
@@ -30,6 +31,11 @@
       font-size: 3em;
       font-weight: 500;
       color: #ffffff;
+    }
+
+    &__card{
+      box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+      font-size: 1rem;
     }
 
  }

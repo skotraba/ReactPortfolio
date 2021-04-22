@@ -1,5 +1,11 @@
 .Experiences{
   margin: 0 5em;
+  font-size: 1.3rem;
+
+  &__heading {
+    font-weight: 400;
+    color: rgb(78, 77, 77);
+  }
 }
 
 @media only screen and (max-width: 1080px){
