@@ -14,12 +14,12 @@ import CSSProject from '../../assets/images/projectImages/CSSCourse.png';
 import TrelloGif from '../../assets/gifs/testTrello.gif';
 
 export const ProjectsData = [
-  {
-    imageSrc: TrelloGif,
-    link: "https://github.com/skotraba/TrelloClone",
-    name: "Trello Clone",
-    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
-  },
+  // {
+  //   imageSrc: TrelloGif,
+  //   link: "https://github.com/skotraba/TrelloClone",
+  //   name: "Trello Clone",
+  //   description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
+  // },
   {
     imageSrc: Burger,
     link: "https://github.com/skotraba/Burger-Builder",

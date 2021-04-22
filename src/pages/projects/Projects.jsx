@@ -2,36 +2,49 @@ import React from 'react';
 
 import './Projects.scss';
 
+import {ProjectsData} from './ProjectsData.js';
+import TrelloGif from '../../assets/gifs/testTrello.gif';
+
 const Projects = () => {
+  const featuredProject =
+   {
+    imageSrc: TrelloGif,
+    link: "https://github.com/skotraba/TrelloClone",
+    name: "Trello Clone",
+    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
+  }
+
   return (
     <div className="Projects">
-      Projects
+      <div className="Projects__upper">
+        <h1 className="text-center">Projects</h1>
+        <div className="Projects__card-featured">
+          <img src={featuredProject.imageSrc} className="Projects__img-featured"/>
+          <div className="Projects__description-featured">
+            {featuredProject.description}
+            <button className="Projects__btn" href={featuredProject.link}>View Code</button>
+          </div>
+          
+        </div>
+      </div>
+      <div className="Projects__flex">
+        {ProjectsData.map(project => (
+           <div className="Projects__card">
+           <img src={project.imageSrc} className="Projects__img"/>
+           <div className="Projects__description">
+             {project.description}
+           </div>
+           <button className="Projects__btn" href={project.link}>View Code</button>
+         </div>
+        ))}
+       
+      </div>
     </div>
+      
   );
 };
 
 export default Projects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
