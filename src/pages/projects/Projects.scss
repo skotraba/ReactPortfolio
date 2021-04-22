@@ -78,14 +78,15 @@
     padding: .5rem 2rem;
     color: white;
     text-transform: uppercase;
+    transition: all .5s;
+    margin-top: 2rem;
 
-    &:hover {
-      opacity: .8;
-      transform: translateY(.5rem);
+    &:hover,
+    &:focus {
+      box-shadow: inset 30rem 0 0 0 rgb(240, 187, 221);
     }
   }
 }
-
 
 
 

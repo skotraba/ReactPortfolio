@@ -14,7 +14,7 @@ import {skills} from "./SkillsData";
 const Skills = () => {
   return (
     <div id="skills"  className="skills">
-      <h1 className="text-center p-4 font-details-b">Tech Skills</h1>
+      <h1 className="text-center p-4 font-details-b skills__heading">Tech Skills</h1>
       <CardDeck>
           {/* Frontend */}
           <Card className="focus skills__card" style={{ width: '18rem' }}>
