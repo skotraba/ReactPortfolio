@@ -11,7 +11,7 @@ const Projects = () => {
     imageSrc: TrelloGif,
     link: "https://github.com/skotraba/TrelloClone",
     name: "Trello Clone",
-    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
+    description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using BEM methodology and a mobile first design."
   }
 
   return (
