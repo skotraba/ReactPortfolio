@@ -39,7 +39,7 @@ if(window.screen.width < 600){
 const Experiences = (props) => {
   return (
     <div id="experience" className="Experiences">
-        <h1 className="font-details-b text-center">Related Experience</h1>
+        <h1 className="text-center p-4 font-details-b Experiences__heading">Related Experience</h1>
         {(isMobile) ? 
         jobs.map((job, index) => (
           <div delay={job.delay}>

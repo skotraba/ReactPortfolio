@@ -14,10 +14,10 @@ import {skills} from "./SkillsData";
 const Skills = () => {
   return (
     <div id="skills"  className="skills">
-      <h1 className="text-center p-4 font-details-b">Tech Skills</h1>
+      <h1 className="text-center p-4 font-details-b skills__heading">Tech Skills</h1>
       <CardDeck>
           {/* Frontend */}
-          <Card className="focus " style={{ width: '18rem' }}>
+          <Card className="focus skills__card" style={{ width: '18rem' }}>
           <Card.Body>
             <Card.Title className="text-center">FrontEnd</Card.Title>
             <Card.Text>
@@ -31,7 +31,7 @@ const Skills = () => {
         </Card>
 
         {/* Backend */}
-        <Card className="focus" style={{ width: '18rem' }}> 
+        <Card className="focus skills__card" style={{ width: '18rem' }}> 
           <Card.Body>
             <Card.Title className="text-center">Backend</Card.Title>
             <Card.Text>
@@ -47,7 +47,7 @@ const Skills = () => {
         </Card>
 
         {/* Languages */}
-        <Card className="focus" style={{ width: '18rem' }}>
+        <Card className="focus skills__card" style={{ width: '18rem' }}>
           <Card.Body>
             <Card.Title className="text-center">Languages</Card.Title>
             <Card.Text>
