@@ -15,7 +15,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <div className="Projects__upper">
         <h1 className="text-center Projects__heading">Projects</h1>
         <div className="Projects__card-featured">
