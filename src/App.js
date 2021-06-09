@@ -22,6 +22,7 @@ import Projects from "./pages/projects/Projects";
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
+      {/* {alert("Mobile view is currently in progress. Sorry!")} */}
       <MyCarousal />
       <MyTitleMessage />
       <MyNavbar />
@@ -47,9 +48,7 @@ const App = () => {
         </div>
       </div>
       <br/><br/>
-      <div>
-          <Experiences/>
-      </div>
+      <Experiences/>
       <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={Picture}

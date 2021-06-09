@@ -11,3 +11,9 @@ hr {
   position: relative;
   z-index: 9;
 }
+
+@media screen and (max-width: 600) {
+    .container-box {
+      width: 100vw;
+    }
+}

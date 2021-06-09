@@ -10,14 +10,14 @@
         font-size: 4rem;
     }
 
-    .profile {
-        max-width: 100%;
+    // .profile {
+    //     max-width: 100%;
         
-        background-color: transparent;
-        border: none;
-        margin: 0;
+    //     background-color: transparent;
+    //     border: none;
+    //     margin: 0;
         
-    }
+    // }
     
     .my-details{
         margin: none;
@@ -39,23 +39,32 @@
 
 
 /* Testing Mobile first aproach */
-@media only screen and (min-width: 600px){
-     
+@media only screen and (max-width: 600px){
 
-   .about{
-       padding:  10em 0;
-
-
-       .aboutH{
-        visibility: visible ;
+    .about {
+        width: 100vw;
     }
 
-    .profile{
-        margin-right: 10em;
-        margin-top: 5em;
+    .profile {
+        visibility: hidden;
         
     }
-   } 
+     
+
+//    .about{
+//     //    padding:  10em 0;
+
+
+//        .aboutH{
+//         visibility: visible ;
+//     }
+
+//     .profile{
+//         margin-right: 10em;
+//         margin-top: 5em;
+        
+//     }
+//    } 
 }
 
 

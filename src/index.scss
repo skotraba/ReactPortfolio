@@ -1,28 +1,33 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
   font-family: "Karla", sans-serif;
   font-size: 62.5%;
+  position: absolute;
+  width: 100vw;
 
 
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a28497+0,c6caed+100 */
+background: #a5969f; /* Old browsers */
+// background: -moz-linear-gradient(left,  #a28497 0%, #c6caed 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(left,  #a28497 0%,#c6caed 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(to right,  #a28497 0%,#c6caed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a28497', endColorstr='#c6caed',GradientType=1 ); /* IE6-9 */
 
-
-  background: rgb(162,132,151);
-  background: linear-gradient(90deg, rgba(162,132,151,1) 0%, rgba(173,168,190,1) 35%, rgba(198,202,237,1) 100%);
-  
-  /* Add the blur effect */
 
   /* Full height */
-  height: 100%;
+  height: 100vh;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -34,8 +39,6 @@ h1,h2,h3 {
   text-transform: uppercase;
 
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
