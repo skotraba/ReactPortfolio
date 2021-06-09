@@ -6,7 +6,7 @@
     padding: 1em;
 
     &__heading {
-        padding-bottom: 3rem;
+        margin: 3rem;
         font-size: 4rem;
     }
 
@@ -20,7 +20,10 @@
     // }
     
     .my-details{
-        margin: none;
+        margin: 2rem 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .aboutH{
@@ -45,8 +48,9 @@
         }
 
         &__heading {
-            font-size: 2rem;
-            margin: 5rem;
+            font-size: 3rem;
+            margin: 3rem 0;
+            text-align: left !important;
         }
     }
 

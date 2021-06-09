@@ -7,12 +7,18 @@
 }
 
 .about__heading {
-  padding-bottom: 3rem;
+  margin: 3rem;
   font-size: 4rem;
 }
 
 .about .my-details {
-  margin: none;
+  margin: 2rem 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .about .aboutH {
@@ -30,8 +36,9 @@
     display: none;
   }
   .about__heading {
-    font-size: 2rem;
-    margin: 5rem;
+    font-size: 3rem;
+    margin: 3rem 0;
+    text-align: left !important;
   }
 }
 /*# sourceMappingURL=about.css.map */

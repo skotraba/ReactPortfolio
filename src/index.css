@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden !important;
   padding: 0;
   margin: 0;
 }
@@ -12,6 +11,7 @@ body {
   font-size: 62.5%;
   position: absolute;
   width: 100vw;
+  overflow-x: hidden !important;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a28497+0,c6caed+100 */
   background: #a5969f;
   /* Old browsers */
@@ -21,6 +21,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.App {
+  width: 100%;
 }
 
 h1, h2, h3 {

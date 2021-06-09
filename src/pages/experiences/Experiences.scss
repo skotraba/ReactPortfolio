@@ -1,6 +1,10 @@
 .Experiences{
-  margin: 0 5em;
+  margin: auto;
   font-size: 1.3rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__heading {
     font-weight: 400;

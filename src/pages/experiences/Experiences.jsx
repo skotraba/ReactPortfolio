@@ -19,7 +19,7 @@ const jobs = [
     delay: 0
   },
   {
-    name: 'Internship as Analytical Chemical Technician at Pneuma Respiratory Fall 2019 September-December',
+    name: 'Analytical Chemical Technician Intern at Pneuma Respiratory 2019',
     description: 'Produced and analyzed experiments using standard analytical laboratory equipment,	Calculated and evaluated data to be in a presentable format',
     delay: 200
   },

@@ -27,7 +27,7 @@ const About = (props) => {
               <br></br>
               <p>I am a former Army Medic who decided to pursue a life of research. I studied to become an analytical chemist but discovered programming along the way and have been driven to turn it into a career ever since. I completed my degree in Chemistry and returned to school for programming and development as well as some programming certificates.  I transitioned into IT work shortly after moving to Raleigh and will continue to transition to Software Development. Experienced with Object-Oriented Programming, Front-End Development, scripting and IT fundamentals.  I am particulary passionate about responsive and dynamic solutions for web applications. I am a motivated, fast learner with strong troubleshooting and problem-solving skills and an analytical mindset.</p>
             </Row>
-            <Col className="d-flex  flex-wrap my-details">
+            <Col className="my-details">
               <div>
                 <a href="#contact">
                   <Button className="m-2" variant="outline-primary">
