@@ -16,7 +16,7 @@ const About = (props) => {
       <h1 className="aboutH">ABOUT</h1>
       <Container>
         <Row>  {/* Picture Col */}
-          <Col > 
+          <Col className="about__hide"> 
             <Image className="profile fluid" src={Profile} thumbnail />
           </Col>
           <Col >

@@ -25,13 +25,13 @@
   visibility: hidden;
 }
 
-/* Testing Mobile first aproach */
-@media only screen and (max-width: 600px) {
-  .about {
-    width: 100vw;
+@media screen and (max-width: 600px) {
+  .about__hide {
+    display: none;
   }
-  .profile {
-    visibility: hidden;
+  .about__heading {
+    font-size: 2rem;
+    margin: 5rem;
   }
 }
 /*# sourceMappingURL=about.css.map */

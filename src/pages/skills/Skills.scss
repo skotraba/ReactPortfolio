@@ -18,13 +18,7 @@
     .image-style {
       width: 3em;
     }
-    
-    // .font-details {
-    //   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    //   font-size: 3em;
-    //   font-weight: 500;
-    //   color: #4A5240;
-    // }
+  
 
     &__heading {
       font-weight: 400;
@@ -40,31 +34,13 @@
     }
 
  }
- 
-
-
-
-@media screen and (max-width: 600px){
-
-  
-  .skills{
-    margin:auto;
-
-    
-  &__heading {
-    letter-spacing: normal;
-  }
-  
-
-  // .font details .font-details-b{
-  //   font-size: 2.5em;
-  //   margin-top: 1em;
-  // }
-  
+ @media screen and (max-width: 600px) {
+  .skills {
+    &__heading {
+      letter-spacing: 0;
+    }
   }
 
-  .focus:hover {
-    transform: none;
-  }
 
 }
+

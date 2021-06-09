@@ -35,37 +35,20 @@
     
 }
 
-
-
-
-/* Testing Mobile first aproach */
-@media only screen and (max-width: 600px){
-
+@media screen and (max-width: 600px) {
+    // .profile {
+    //     display: none;
+    // }
     .about {
-        width: 100vw;
+        &__hide {
+            display: none;
+        }
+
+        &__heading {
+            font-size: 2rem;
+            margin: 5rem;
+        }
     }
 
-    .profile {
-        visibility: hidden;
-        
-    }
-     
-
-//    .about{
-//     //    padding:  10em 0;
-
-
-//        .aboutH{
-//         visibility: visible ;
-//     }
-
-//     .profile{
-//         margin-right: 10em;
-//         margin-top: 5em;
-        
-//     }
-//    } 
-}
-
-
-
+  
+  }

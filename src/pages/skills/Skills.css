@@ -38,15 +38,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .skills {
-    margin: auto;
-  }
   .skills__heading {
-    letter-spacing: normal;
-  }
-  .focus:hover {
-    -webkit-transform: none;
-            transform: none;
+    letter-spacing: 0;
   }
 }
 /*# sourceMappingURL=Skills.css.map */
