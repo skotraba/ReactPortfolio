@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,cAAc,EAAE,IAAI;CAMrB;;AAJE,AAAD,cAAO,CAAC;EACN,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;CACvB;;AAIH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,QAAQ,CAAC;IACP,cAAc,EAAE,IAAI;GAOrB;EALE,AAAD,cAAO,CAAC;IACN,cAAc,EAAE,MAAM;IACtB,SAAS,EAAE,eAAe;IAC1B,WAAW,EAAE,MAAM;GACpB",
+    "sources": [
+        "TitleMessage.scss"
+    ],
+    "names": [],
+    "file": "TitleMessage.css"
+}
