@@ -1,0 +1,52 @@
+.skills {
+  margin-bottom: 5rem;
+  font-size: 1.1rem;
+}
+
+.skills .focus {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.skills .focus:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.skills .card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.skills .image-style {
+  width: 3em;
+}
+
+.skills__heading {
+  font-weight: 400;
+  color: #4e4d4d;
+  letter-spacing: 3rem;
+  margin: 3rem;
+}
+
+.skills__card {
+  -webkit-box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    margin: auto;
+  }
+  .skills__heading {
+    letter-spacing: normal;
+  }
+  .focus:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,21 @@
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(247, 243, 243, 0)), color-stop(rgba(245, 239, 239, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(247, 243, 243, 0), rgba(245, 239, 239, 0.75), rgba(0, 0, 0, 0));
+  margin: 1em;
+}
+
+.container-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
+
+@media screen and (max-width: 600) {
+  .container-box {
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=myApp.css.map */

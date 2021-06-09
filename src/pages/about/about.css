@@ -1,0 +1,37 @@
+.about {
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin: 0;
+  position: relative;
+  padding: 1em;
+}
+
+.about__heading {
+  padding-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.about .my-details {
+  margin: none;
+}
+
+.about .aboutH {
+  opacity: .1;
+  position: absolute;
+  font-size: 10em;
+  top: 10%;
+  left: 25%;
+  margin: 0;
+  visibility: hidden;
+}
+
+/* Testing Mobile first aproach */
+@media only screen and (max-width: 600px) {
+  .about {
+    width: 100vw;
+  }
+  .profile {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=about.css.map */

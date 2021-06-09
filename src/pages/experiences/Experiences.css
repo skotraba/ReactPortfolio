@@ -1,0 +1,19 @@
+.Experiences {
+  margin: 0 5em;
+  font-size: 1.3rem;
+}
+
+.Experiences__heading {
+  font-weight: 400;
+  color: #4e4d4d;
+  letter-spacing: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  .Experiences {
+    margin-right: 1.5em;
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=Experiences.css.map */

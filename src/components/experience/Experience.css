@@ -1,0 +1,24 @@
+.myDiv {
+  height: 20%;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  margin: 20px;
+  padding: 1em;
+  color: #4e4d4d;
+}
+
+.myDiv__heading {
+  font-weight: 600;
+}
+
+.myDiv .border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid white;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+}
+/*# sourceMappingURL=Experience.css.map */

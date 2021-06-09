@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 62.5%;
+  position: absolute;
+  width: 100vw;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a28497+0,c6caed+100 */
+  background: #a5969f;
+  /* Old browsers */
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* c6caed */
+/*# sourceMappingURL=index.css.map */
