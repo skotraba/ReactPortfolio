@@ -6,6 +6,9 @@
   font-size: 1.5rem;
   margin: auto;
   padding: 1rem;
+  color: rgb(78, 77, 77);
+
+  
 
   &__upper {
     display: flex;
@@ -28,17 +31,31 @@
     flex-wrap: wrap;
   }
 
+  // &__overlay {
+  //   // color: white;
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   font-weight: bold;
+  // }
+  &__overlay {
+    padding: 3rem;
+  }
+
   &__card{
     width: 30%;
     padding: 1rem;
-    
+    position: relative;
+    align-items: center;
+    text-align: center;
     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     margin: 1rem;
-    background-color: rgba(221, 220, 220, 0.8);
+    background-color: rgba(221, 220, 220, 0.4);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
     border-radius: 1rem;
 
@@ -119,12 +136,14 @@
       
       &-featured {
         flex-direction: column;
+        min-width: 100%;
+        margin: 0;
       }
     }
 
       
     &__img {
-      width: 100%;
+      min-width: 100%;
       height: 10rem;
       min-height: 20rem;
       position: relative;

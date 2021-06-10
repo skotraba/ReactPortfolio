@@ -31,10 +31,12 @@ const Projects = () => {
         {ProjectsData.map(project => (
            <div className="Projects__card">
             <img src={project.imageSrc} className="Projects__img"/>
-            <div className="Projects__description">
-              {project.description}
-            </div>
-            <a className="Projects__btn" href={project.link} target="_blank">View Code</a>
+              {/* {project.description} */}
+              <div className="Projects__overlay">
+                <h3>{project.name}</h3>
+                <a className="Projects__btn" href={project.link} target="_blank">View Code</a>
+              </div>
+            
           </div>
         ))}
       </div>

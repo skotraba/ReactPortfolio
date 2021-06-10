@@ -44,14 +44,14 @@ const App = () => {
       <br/><br/>
       <Experiences/>
       <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={Picture}
-          bgImageAlt=""
-          strength={-500}
-        >
-          <div>
-            <Projects />
-          </div>
+        blur={{ min: -30, max: 30 }}
+        bgImage={Picture}
+        bgImageAlt=""
+        strength={-500}
+      >
+        <div>
+          <Projects />
+        </div>
       </Parallax>
       <Footer/>
     </div>
