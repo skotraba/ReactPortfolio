@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <div className="Projects" id="projects">
-       <h1 className="text-center Projects__heading">Projects</h1>
+       <h1 className="Projects__heading">Projects</h1>
       <div className="Projects__container">
         <div className="Projects__upper">
           <div className="Projects__card">

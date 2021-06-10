@@ -3,12 +3,14 @@
   min-width: 80vw;
   position: relative;
   background-color: #fff;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   padding: 1em;
+  font-size: 1.1rem;
   color: rgb(78, 77, 77);
 
   &__heading {
     font-weight: 600;
+    font-size: 1.4rem;
   }
 
   .border {

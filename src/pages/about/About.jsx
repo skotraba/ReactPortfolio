@@ -23,18 +23,19 @@ const About = (props) => {
          
           <p>I am a former Army Medic who decided to pursue a life of research. I studied to become an analytical chemist but discovered programming along the way and have been driven to turn it into a career ever since. I completed my degree in Chemistry and returned to school for programming and development.  I transitioned into IT work shortly after moving to Raleigh and will continue to transition into Software Development. </p>
           <p>Although I am predominately self-taught, I am attending Wake Technical Community College working towards programming certificates and have had a Software Engineer with a degree in Computer Science mentor me along the way.  I am familiar with Object-Oriented Programming, Front-End Development, scripting, and IT fundamentals.  I try to be as humble and accurate about my skillset as possible.  The skills that I have listed on my resume are all things that I have been exposed to and are familiar with.  I am a motivated, fast learner with strong troubleshooting and problem-solving skills.</p>
-        </div>
-        <div className="about__lower">
-            <p>
-              In my free time, I enjoy learning a variety of things. I am trying to learn Spanish. Being multilingual is very important and I love learning about different cultures and ways of life. I am very creative and artistic so I’m always learning about different art techniques and mediums. I also play piano, a variety of outdoor activities, and making video games with Unity as well as playing them.
-            </p>
-            <p>
+          <p>
               I created this portfolio using React.js.  I understand this portfolio could have been created using vanilla JavaScript but I wanted a simple project for applying what I’ve learned with React.  In the future, I would love to keep updating this portfolio and applying what I’ve learned.  I’ve created a few portfolios now, and I always love looking back and seeing my progress as a developer.
             </p>
             <p>
               I appreciate you taking the time to look at my portfolio and always welcome constructive criticism.
             </p>
-          </div>
+        </div>
+        {/* <div className="about__lower">
+            <p>
+              In my free time, I enjoy learning a variety of things. I am trying to learn Spanish. Being multilingual is very important and I love learning about different cultures and ways of life. I am very creative and artistic so I’m always learning about different art techniques and mediums. I also play piano, a variety of outdoor activities, and making video games with Unity as well as playing them.
+            </p> 
+            
+          </div> */}
       </div>
       <div className="about__container__links">
             <a href="#contact">

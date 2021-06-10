@@ -79,6 +79,10 @@
     .skills {
       margin-bottom: 0;
 
+      .focus:hover {
+        animation: none;
+      }
+
       &__heading {
         letter-spacing: 0;
         font-size: 3rem;
