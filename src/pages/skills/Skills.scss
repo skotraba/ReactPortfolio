@@ -1,5 +1,4 @@
  .skills{
-    margin-bottom: 10rem;
     font-size: 1.1rem;
     display: flex;
     flex-direction: column;
@@ -21,7 +20,7 @@
 
     &__heading {
       font-weight: 400;
-      font-size: 5rem;
+      font-size: 4rem;
       // color: rgb(78, 77, 77);
       color: white;
       letter-spacing: 3rem;
@@ -31,7 +30,7 @@
 
     &__holder {
       display: flex;
-      margin-bottom: 8rem;
+      margin-bottom: 2rem;
       width: 95%;
       justify-content: space-evenly;
       color: white;
@@ -68,17 +67,41 @@
 
  }
 
+ //Animation
  @keyframes grow {
    to{
     transform: scale(1.1);
    }
  }
 
-
+//Media queries
  @media screen and (max-width: 600px) {
     .skills {
+      margin-bottom: 0;
+
       &__heading {
         letter-spacing: 0;
+        font-size: 3rem;
+        width: 80vw;
+        margin: 4rem;
+      }
+
+      &__holder {
+        flex-direction: column;
+        margin-bottom: 2rem;
+      }
+
+      &__card {
+        min-width: 100%;
+        margin: 2rem 0;
+
+        &__inner {
+
+
+          &__skill {
+
+          }
+        }
       }
     }
 

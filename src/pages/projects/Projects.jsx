@@ -21,7 +21,8 @@ const Projects = () => {
         <div className="Projects__card-featured">
           <img src={featuredProject.imageSrc} className="Projects__img-featured"/>
           <div className="Projects__description-featured">
-            {featuredProject.description}
+            {/* {featuredProject.description} */}
+            <h3>{featuredProject.name}</h3>
             <a className="Projects__btn" href={featuredProject.link} target="_blank">View Code</a>
           </div>
         </div>

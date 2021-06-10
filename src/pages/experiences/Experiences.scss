@@ -1,5 +1,6 @@
 .Experiences{
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-bottom: 10rem;
   font-size: 1.3rem;
   width: 80%;
   display: flex;
@@ -9,17 +10,25 @@
 
   &__heading {
     font-weight: 400;
-    color: rgb(78, 77, 77);
-    letter-spacing: 3rem;
-    margin-bottom: 4rem;
+      font-size: 4rem;
+      color: rgb(78, 77, 77);
+      // color: white;
+      letter-spacing: 3rem;
+      margin: 10rem;
     
   }
 }
 
 @media screen and (max-width: 600px) {
   .Experiences {
+
+    margin: 0 auto;
+
     &__heading {
       letter-spacing: 0;
+      font-size: 3rem;
+      width: 80vw;
+      margin: 4rem;
     }
   }
 
