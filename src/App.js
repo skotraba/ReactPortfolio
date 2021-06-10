@@ -39,13 +39,7 @@ const App = () => {
             </Container>
           </div>
         </Parallax>
-        
-        <div>
-          <Container className="container-box rounded">
-              <Skills/>
-          </Container>
-          <hr/>
-        </div>
+        <Skills/>
       </div>
       <br/><br/>
       <Experiences/>

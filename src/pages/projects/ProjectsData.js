@@ -1,48 +1,52 @@
 import RecipeImage from "../../assets/images/projectImages/Recipe.png"
-import ColorPicker from "../../assets/images/projectImages/colorPicker2.png";
-import ITGame from "../../assets/images/projectImages/ITGame.png";
-import GuessColor from "../../assets/images/projectImages/GuessColor2.png";
-import WebCoffee from "../../assets/images/projectImages/WebCoffee.png";
-import SpanishLearn from "../../assets/images/projectImages/WebSpanish.png";
+// import ColorPicker from "../../assets/images/projectImages/colorPicker2.png";
+// import ITGame from "../../assets/images/projectImages/ITGame.png";
+// import GuessColor from "../../assets/images/projectImages/GuessColor2.png";
+// import WebCoffee from "../../assets/images/projectImages/WebCoffee.png";
+// import SpanishLearn from "../../assets/images/projectImages/WebSpanish.png";
 import Portfolio from "../../assets/images/projectImages/PortfolioSS.png";
 import GREVocab from "../../assets/images/projectImages/GREVocab.png";
 import Burger from '../../assets/images/projectImages/Burger.png';
-import CSSProject from '../../assets/images/projectImages/CSSCourse.png';
-//TODO RESIZE ALL IMAGES 800 px by 600 px?
+// import CSSProject from '../../assets/images/projectImages/CSSCourse.png';
+import VerbViewer from '../../assets/images/projectImages/verbViewer.png';
+
+
+
+//TODO figure out why image quality is low
 
 //Gifs
-import TrelloGif from '../../assets/gifs/testTrello.gif';
+// import TrelloGif from '../../assets/gifs/testTrello.gif';
 
 export const ProjectsData = [
-  // {
-  //   imageSrc: TrelloGif,
-  //   link: "https://github.com/skotraba/TrelloClone",
-  //   name: "Trello Clone",
-  //   description: "I created a clone of Trello using the React framework.  The project incorporates react-beautiful-dnd to recreate the drag and drop feature and material-ui for design.  The data is stored using Firebase/Firestore.  Written using REM methodology and a mobile first design."
-  // },
+  {
+    imageSrc: VerbViewer,
+    link: "https://skotraba.github.io/VerbViewer/",
+    name: "Verb Viewer",
+    description: "I created a simple web application that has all the information about spanish verbs that I need in one place. I watch a lot of movies in Spanish to help me learn, and I often find myself wishing I had a central location for the information I look up.  I was really going for simplicity because some of the Spanish sites I use seem to overwhelm you with information you don't need. I used redux to store the current state, which in this application is the current verb being viewed. I found a free database of almost 600 spanish verbs that I used to create this application and implemented a search feature for the verbs shown on the left.  I would like to add a recently viewed section as well."
+  },
   {
     imageSrc: Burger,
     link: "https://github.com/skotraba/Burger-Builder",
     name: "Burger Builder",
-    description: "This was a project that I created from a Udemy Course called \"React - The Complete Guide.\" This project allows a user to order a customized burger that taught me a lot about state management.     "
+    description: "This was a project that I created from a Udemy Course called \"React - The Complete Guide.\" This project allows a user to order a customized burger that taught me a lot about the basics of using React.  I really enjoyed this course because it gave me a solid foundation of React fundamentals and I was then later able to create my own projects from what I learned in this course."
   },
   {
     imageSrc: GREVocab,
     link: "https://github.com/skotraba/GRE-Study",
     name: "GRE Vocab Study",
-    description: "This is a web application built using Electron to help study GRE vocabulary. The application cycles through words and allows the user to hide or show the definition."
+    description: "This is a simple web application built using Electron to help study GRE vocabulary. The application cycles through words and allows the user to hide or show the definition.  Although, it is not a complex application, I really enjoyed creating this project because it was really interesting to work with Electron and use web languages to create an application outside of the browser.  Going back, I would probably spend more time on the design and make it look more professional.  I would love to be able to edit the lists as well. For example, add words you frequently miss so you can study those later."
   },
   {
     imageSrc: RecipeImage,
     link: "https://github.com/skotraba/RecipeCalculatorGUI",
     name: "Recipe Calculator",
-    description: "A program that allows the user to input ingredient info. The user can add ingredients listing calories and weight.  After adding recipes the user can view the recipe or calculate total calories and calories based on serving size. Orignally written in Python, rewritten with GUI implementation in C# "
+    description: "A program that allows the user to input ingredient info. The user can add ingredients listing calories and weight.  After adding recipes the user can view the recipe or calculate total calories and calories based on serving size.  It is a buffed up calcualtor program, but I love this because I do find it useful and use it when I need to calculate calories of homemade meals. Orignally written in Python, rewritten with GUI implementation in C# "
   },
   {
     imageSrc: Portfolio,
     link: "https://github.com/skotraba/skotraba.github.io",
     name: "Old Portfolio",
-    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap."
+    description: "Old portfolio I made focusing on design, responsive layout and utilizing Bootstrap. This was the second portfolio I have made out of many.  It was my first time trying to make my portfolio responsive, and I learned a lot of what not to do from this project.  I love being able to look back and see how far I've come in my software development journey."
   },
   // {
   //   imageSrc: ColorPicker,
