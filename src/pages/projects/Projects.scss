@@ -1,14 +1,43 @@
 
 .Projects {
 
-  width: 80%;
+  width: 70%;
   overflow: hidden;
-  font-size: 1.5rem;
-  margin: auto;
-  padding: 1rem;
+  font-size: 1.1rem;
+  margin: 0 auto;
   color: rgb(78, 77, 77);
+  margin-bottom: 5rem;
 
-  
+  &__container {
+    
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pagination {
+    align-self: center;
+    display: inline-block;
+    padding: 3rem;
+
+     & a{
+      padding: 1rem;
+      text-decoration: none;
+      color: rgb(161, 110, 143);
+      cursor: pointer;
+
+      &.active {
+        background-color: rgb(161, 110, 143);
+        color: white;
+      }
+     }
+
+
+  }
+
+
 
   &__upper {
     display: flex;
@@ -18,83 +47,41 @@
 
   &__heading {
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: rgb(78, 77, 77);
     letter-spacing: 3rem;
-    margin: 10rem;
+    margin: 6rem;
     margin-bottom: 5rem;
   }
 
-  &__flex {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-
-  // &__overlay {
-  //   // color: white;
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   font-weight: bold;
-  // }
+ 
   &__overlay {
     padding: 3rem;
   }
 
   &__card{
-    width: 30%;
-    padding: 1rem;
-    position: relative;
-    align-items: center;
-    text-align: center;
-    
+    margin-top: 3rem;
+    width: 90%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-
-    margin: 1rem;
-    background-color: rgba(221, 220, 220, 0.4);
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
-    border-radius: 1rem;
-
-    &-featured {
-      margin-top: 3rem;
-      width: 80%;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      margin-bottom: 10rem;
-      background-color: rgba(221, 220, 220, 0.8);
-      box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
-      border-radius: 1rem;
-
-    }
 
   }
 
   &__img {
-    width: 100%;
     height: 10rem;
     min-height: 20rem;
-
-    &-featured {
-      height: 30rem;
-    }
+    height: 30rem;
+    max-width: 40%;
+    
   }
 
   &__description {
-    flex: 1;
-
-    &-featured {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      margin: auto;
-    }
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 30%;
   }
 
   &__btn {
@@ -132,13 +119,11 @@
     &__card {
       min-width: 100%;
       margin: 1.5rem auto;
-
+      flex-direction: column;
+      min-width: 100%;
+      margin: 0;
       
-      &-featured {
-        flex-direction: column;
-        min-width: 100%;
-        margin: 0;
-      }
+    
     }
 
       
@@ -147,21 +132,15 @@
       height: 10rem;
       min-height: 20rem;
       position: relative;
-
-      &-featured {
-        width: inherit;
-        height: inherit;
-      }
+      width: inherit;
+      height: inherit;
     }
 
     
     &__description {
-      flex: 1;
+      padding: 0;
 
-      &-featured {
-        padding: 0;
-      }
-
+  
     }
   }
 
