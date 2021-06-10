@@ -22,7 +22,7 @@ export const skills = {
   frontend: [
     { skillname: 'BootStrap',
     imgSrc: BOOTSTRAP},
-    { skillname: 'ReactBootstrap',
+    { skillname: 'React Bootstrap',
     imgSrc: REACTBOOTSTRAP},
     { skillname: 'React',
     imgSrc: REACT},
