@@ -9,7 +9,7 @@ import "./Experiences.scss";
 const jobs = [
   {
     name: 'Bachlors of Chemistry, Minor in Criminal Justice',
-    description: 'Currently attending Wake Technical Community College for an Associates of Programming and Design as well as a Programming fundamentals certificate and C++ Certificate.  Aspiring to earn Master of Computer Science. ',
+    description: "I graduated in 2019 and returned to school in 2020. I am currently attending Wake Technical Community College, I have completed a Programming and Development certificate and currently working towards an Associates of Programming and C++ Certificate.  I hope to gain professional experience and later return to school for a Master's in Computer Science",
     delay: 200
   },
   {
